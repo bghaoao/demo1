@@ -24,4 +24,5 @@ git log --online 可查看简洁的历史版本目录(不含分支目录)
 git reflog 可查看所有历史目录(含分支目录)
 再次切换到分支目录(branchDir)
 将所有的分支(branch)于总仓库(master)进行合并 git merge "分支名称"
+删除分支(只能在总仓库删除目录下删除 git checkout master) git branch -d dev
 -->
