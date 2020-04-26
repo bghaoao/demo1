@@ -25,4 +25,5 @@ git reflog 可查看所有历史目录(含分支目录)
 再次切换到分支目录(branchDir)
 将所有的分支(branch)于总仓库(master)进行合并 git merge "分支名称"
 删除分支(只能在总仓库删除目录下删除 git checkout master) git branch -d dev
+合并时如果出现冲突,需要手动合并(处理冲突),处理后再进行提交 (git add./)
 -->
