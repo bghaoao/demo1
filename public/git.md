@@ -19,5 +19,8 @@ readme.md 文件本身为(工作区)
 创建分支(master) git branch "分支名称"
 查看已创建的分支(master) git branch
 切换到分支(master)目录中git checkout "分支名称"
-
+将分支(master)添加到总仓库(版本库)中 git add ./ 再提交
+git log --online 可查看简洁的历史版本目录(不含分支目录)
+git reflog 可查看所有历史目录(含分支目录)
+再次切换到分支目录(masterDir)
 -->
