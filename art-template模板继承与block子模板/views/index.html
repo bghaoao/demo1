@@ -1,0 +1,16 @@
+<!-- 引入默认内容 -->
+{{extend './layout.html'}}
+<!-- 重新默认内容 -->
+{{ block 'header' }} 
+<h1>helloHaoAo</h1>
+{{ /block }}
+<!-- 写入内容 -->
+{{ block 'cornet' }} 
+<h1>后写入的cornet</h1>
+{{ /block }}
+<!-- 写入内容 -->
+{{ block 'script' }} 
+<script>
+    window.console.log('后写入的script');
+</script>
+{{ /block }}
