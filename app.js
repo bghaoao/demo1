@@ -52,5 +52,5 @@ app.use(function (err, req, res, next) {
 })
 
 app.listen(5000, function () {
-  console.log('running...')
+  console.log('服务器启动成功,可访问: http://127.0.0.1:5000')
 })
